@@ -37,3 +37,15 @@ jsUser.greetingTow = function () {
 console.log(jsUser.greeting);
 console.log(jsUser.greetingTow);
 
+ // Object - Destructuring
+        let course = {
+            courseName: "JavaScript",
+            price: "999",
+            courseinstructor: "abc"
+        }
+        // course.courseinstructor
+
+        const { courseinstructor: instructor } = course
+
+        console.log(instructor);
+
