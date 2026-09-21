@@ -1,3 +1,21 @@
+
+
+        //++++++++++++++++++++++++++++  Number And Maths  +++++++++++++++++++++++++++++++++\\
+
+
+        let scroe = 400
+        let balance = new Number(100)
+        console.log(balance);
+
+        let other = 23.0003;
+
+        console.log(other.toPrecision(4));
+
+        let price = 1000000;
+        console.log(price.toLocaleString('en-IN'));
+
+
+
 //   +++++++++++++++++++++++ Maths section +++++++++++++++++++++++++++\\
 
 
