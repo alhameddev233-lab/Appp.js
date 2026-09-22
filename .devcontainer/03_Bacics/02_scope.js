@@ -41,3 +41,35 @@
 
         addtow(5)
 
+const data ={
+    userName:"Ahmed",
+    Price:199,
+
+    welcomMessage :function (){
+console.log(`${this.userName}, Welscome  to WebSite`);
+
+    }
+}
+
+
+        console.log(this);
+
+
+        const chai = () => {
+            let userName = "Ahmed"
+            console.log(this.userName);
+
+        }
+
+        // chai()
+
+        // const abc = (num1, num2) => {
+        //     return num1 + num2
+
+        // }
+        // const abc = (num1, num2) => num1 + num2
+        // const abc = (num1, num2) => (num1 + num2)
+        const abc = (num1, num2) => ({ name: "ahmed" })
+
+
+        console.log(abc(3, 6));
